@@ -16,15 +16,14 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Agência: ");
         String agencia = scanner.nextLine();
-        scanner.nextLine();
+
 
         System.out.println("Por favor, digite seu nome completo: ");
         String nomeCliente = scanner.nextLine();
-        scanner.nextLine();
+
 
         System.out.println("Qual a quantia você deseja depositar?: ");
         double saldo = scanner.nextDouble();
-        scanner.nextLine();
 
         System.out.println("Óla "+ nomeCliente +", obrigado por criar uma conta em nosso banco, " +
                 "sua agência é "+ agencia +",conta "+ numero + " e seu saldo "+ saldo + " já esta disponivel para saque!");
